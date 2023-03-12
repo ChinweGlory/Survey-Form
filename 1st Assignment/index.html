@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Survey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Membership Satisfaction Survey</h1>
+    
+    <form>
+         <div class="">   
+        <label for="label-name">Name</label>
+        <input type="text" id="label-name"  
+        placeholder="First">
+        <input type="text" id="label-name" 
+        placeholder="Last"></div> 
+
+         <div>
+        <label for="label-address">Address</label>
+        <input type="text" id="label-address" 
+        placeholder="street address">
+        <input type="text" id="label-address" 
+        placeholder="city">
+        <input type="text" id="label-address" 
+        placeholder="Region">
+        <input type="text" id="label-address"
+        placeholder="Postal/Zip code">
+        <input type="text" id="label-address" 
+        placeholder="country" ></div>
+
+        <div>
+            <label for="label-age" id="label-age">Age</label> 
+            <input type="number" placeholder="Enter your age">
+            </div>
+        
+       
+        <div>
+        <label for="label-Phone">Phone:</label>
+        <input type="tel" id="label-Phone" 
+        placeholder="Phone number"> </div>
+      
+        <div>
+            <label for="email">Email Address:</label> 
+        <input type="email" id="email"> 
+        </div>
+<br>
+        <div>
+            <label for="label-gender">Gender:</label>
+            <select name="role" id="role">
+            <option value="Gender">Male</option>   
+            <option value="Female">Female</option>
+            <option value="Male">Others</option>
+            </select></div>
+            
+
+        <div>    
+        <label for="txt">Account Number (located in the top right hand corner of your 
+            billing statement in bold)</label>
+            <input type="text" id="label-txt" ></div>
+            
+
+            <div class="rabox">
+            <label for="recommed"> Would you recommend this company</label>
+            <label for="recommed-1">
+                <input type="radio" id="recommed-1" name="recommed">Yes
+            </label>
+            <label for="recommed-2">
+                <input type="radio" id="recommed-2" name="recommed">No
+            </label>
+            <label for="recommed-3">
+                <input type="radio" id="recommed-3" name="recommed">Maybe
+            </label>            
+        </div>
+
+
+       
+          <div class="rabox">
+        <label>How long have you been a member this company</label>
+
+        <input type="checkbox" id="chi-" name="chi-" value="box"> 
+        <label for="chi-">1-5 years</label>
+        
+        <input type="checkbox" id="chi-" name="chi-" value="box">
+        <label for="chi-">6-10 years</label>
+
+        <input type="checkbox" id="chi-" name="chi-" value="box">
+        <label for="chi-">11-15 years</label>
+        
+          </div>
+            
+        
+         <div>
+
+        <label for="msg">Any Suggestions</label>
+         <textarea name="msg" id="msg" placeholder="write a comment!"></textarea> 
+         </div>
+    <button type="submit" value="submit">Submit</button>
+
+
+    </form>
+    
+    
+</body>
+</html>

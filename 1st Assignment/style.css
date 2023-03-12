@@ -1,0 +1,55 @@
+* {
+    background-color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+    }
+h1 {
+    color: brown;
+    text-align: center;
+    font-size: 40px;
+
+}
+
+    form {
+        margin: 2em 0;
+        padding: 1em 2em;
+        width: 100%;
+        align-items: center;
+    }
+label {
+    display: block;
+    margin-top: 1em;
+    
+}
+.rabox label {
+    margin-top: 1em;
+}
+
+input[type="text"] ,select {
+    padding: .7em;
+    border: solid 1px #999;
+    width: 95%;
+}
+input[type="number"], input[type="tel"],
+input[type="email"] {
+    width: 95%;
+    padding: .7em;
+}
+textarea {
+    border: 1px solid #999;
+    resize: horizontal;
+    padding: .5em;
+    max-height: 30px;
+    min-width: 60%;
+}
+input[type="checkbox"] + label, input[type="radio"] + label {
+    display: inline-block;
+
+}
+button {
+    font-size: 20px;
+    border-radius: 6px;
+    color: red;
+    font-family:monospace;
+}
