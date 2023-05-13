@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1 id="title">Seamfix Netgen Survey Form </h1>
+    <p id="description">Thank you for taking time to help us improve</p>
+    <form method="post" id="survey-form">
+      <fieldset>
+        <label id="name-label">Name <input type="text" id="name" name="name-label" placeholder="name" required/></label>
+        <label id="email-label">Email <input type="email" id="email" name="email-label" placeholder="your email" required></label>
+        <label id="number-label">Age <input type="number" name="age" id="number" placeholder="fill in age" min="13" max="70"required></label>
+        <label id="role-label">Which option best describes your current role?
+          <select id="dropdown" name="dropdown">
+            <option value="">Options</option>
+            <option value="1">Student</option>
+            <option value="2">Full time job</option>
+            <option value="3">Full time learner</option>
+            <option value="4">Prefer not to say</option>
+            <option>Others</option>
+            
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>Would you recommend Seamfix Netgen to a friend?
+        </label>
+        <label> <input id="definitely" type="radio" name="radio-type" class="radio" value="1">Definitely</label>
+        <label> <input id="maybe" type="radio" name="radio-type" class="radio" value="2">Maybe</label>
+        <label> <input id="not sure" name="radio-type" type="radio" class="radio" value="3">Not sure</label>
+        
+      </fieldset>
+      <fieldset>
+        <label>What is your favorite feature of Seamfix Netgen?</label>
+        <select id="dropdown" name="dropdown">
+          <option value="">Select an option</option>
+          <option value="1">Challenges</option>
+          <option value="2">Projects</option>
+          <option value="3">Community</option>
+          <option value="4">Open source</option>  
+
+        </select>
+      </fieldset>
+
+      <fieldset>
+        <label>What is your favorite feature of Seamfix Netgen ?</label>
+        <label> <input id="front-end" type="checkbox" name="front-end" class="checkbox" value="1">Front-end projects</label> 
+        <label> <input id="Back-end" type="checkbox" name="back-end" class="checkbox" value="2">Back-end projects</label> 
+        <label> <input id="video" type="checkbox" name="video" class="checkbox" value="3">Video</label> 
+        <label> <input id="forum" type="checkbox" name="forum" class="checkbox" value=:4>Forum</label> 
+        <label> <input id="wiki" type="checkbox" name="wiki" class="checkbox" value="5">Wiki</label> 
+        </fieldset>
+        <fieldset>
+        <label for="bio">Provide a bio:
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="Let know you more..."></textarea>
+        </label>
+
+      </fieldset>
+      <button id="submit">
+      <input type="submit" id="Submit" />
+      </button>
+      
+    </form>
+    
+    
+</body>
+</html>
